@@ -1,0 +1,81 @@
+body {
+    background-color: cornsilk;
+}
+
+header {
+    border: 1px solid #222831;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    color: #222831;
+}
+
+header p {
+    font-style: italic;
+}
+
+header img {
+    width: 30%;
+    border: solid;
+    border-radius: 50%;
+}
+
+header img:hover {
+    transform: scale(.8);
+    transition: all ease-in-out;
+    box-shadow: 2px 2px 10px black;
+}
+header button {
+    display: block;
+    margin: 30px auto;
+    padding: 30px 30px;
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 35px;
+    border: 1px solid blue;
+}
+header button:hover {
+    background-color: aquamarine;
+    color: blue;
+    box-shadow: 10px 10px black;
+}
+
+.about {
+    text-align: center;
+    margin: 40px;
+}
+
+.about h2 {
+    color: blue;
+}
+
+.Project {
+    width: 90%;
+    margin: 20px;
+    border: 1px solid blue;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px  ;
+    justify-content: space-around;
+}
+
+.Project img {
+    width: 40%;;
+}
+
+.Project img:hover {
+    transform: scale(.8);
+    transition: all .3s ease-in-out;
+    box-shadow: 2px 2px 12px yellow;
+}
+
+.footer {
+    margin-top: 40px;
+    text-align: center;
+    padding: 30px;
+    background-color: #222831;
+    color: aliceblue;
+}
